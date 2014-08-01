@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2849230973E2353E39404428 /* HTTPSyncServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28492B3FDD7F260167363D44 /* HTTPSyncServer.m */; };
+		284927B9710E1C7054364C0B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28492F1B0BDC5EFB52BA7E62 /* AddressBook.framework */; };
+		28492835246A791984C2322F /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28492E43546F6A80D98E9E5A /* ContactsManager.m */; };
+		28492BA7BEF7A62CF52FC179 /* HTTPSyncConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 28492C8925453909E60E4E01 /* HTTPSyncConnection.m */; };
+		28492BB48E1C934BFBBDD502 /* ImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 28492544DE6ED0A8E8457522 /* ImageTools.m */; };
+		28492BCE96017F30A65E51BA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 284924A20B8BEEB236E9C344 /* NSData+Base64.m */; };
+		28492C2650F6FA97539BD06F /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28492BDFAD29C56A3B8DE6B8 /* MediaManager.m */; };
+		28492E08DBC4E888FE1DE5D6 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28492C5DF2430CAD5A6B8A40 /* ScriptingBridge.framework */; };
+		CE696A6A18A5C97100E826B9 /* MediaTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = CE696A6918A5C97100E826B9 /* MediaTrack.m */; };
+		CE8DB1EE18042A7A0015D268 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB1ED18042A7A0015D268 /* Cocoa.framework */; };
+		CE8DB20118042A7A0015D268 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB20018042A7A0015D268 /* AppDelegate.m */; };
+		CE8DB20418042A7A0015D268 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB20218042A7A0015D268 /* MainMenu.xib */; };
+		CE8DB20F18042E740015D268 /* iconH.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB20E18042E740015D268 /* iconH.png */; };
+		CE8DB21118042E7E0015D268 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8DB21018042E7E0015D268 /* icon.png */; };
+		CE8DB3FF180593F40015D268 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB3FE180593F40015D268 /* Security.framework */; };
+		CE8DB81A1805A44A0015D268 /* RoutingHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB8191805A44A0015D268 /* RoutingHTTPServer.framework */; };
+		CE8DB81C1805A47C0015D268 /* CocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB81B1805A47C0015D268 /* CocoaHTTPServer.framework */; };
+		CE8DB8221805A67E0015D268 /* CocoaHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE8DB81B1805A47C0015D268 /* CocoaHTTPServer.framework */; };
+		CE8DB8231805A67E0015D268 /* RoutingHTTPServer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE8DB8191805A44A0015D268 /* RoutingHTTPServer.framework */; };
+		CE8DB8261805A6DA0015D268 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB8241805A6DA0015D268 /* CocoaAsyncSocket.framework */; };
+		CE8DB8271805A6DA0015D268 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DB8251805A6DA0015D268 /* CocoaLumberjack.framework */; };
+		CE8DB8281805A6E30015D268 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE8DB8241805A6DA0015D268 /* CocoaAsyncSocket.framework */; };
+		CE8DB8291805A6E30015D268 /* CocoaLumberjack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE8DB8251805A6DA0015D268 /* CocoaLumberjack.framework */; };
+		CE8DB82F1805B4FD0015D268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8DB82E1805B4FD0015D268 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE8DB8211805A6700015D268 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE8DB8221805A67E0015D268 /* CocoaHTTPServer.framework in CopyFiles */,
+				CE8DB8231805A67E0015D268 /* RoutingHTTPServer.framework in CopyFiles */,
+				CE8DB8281805A6E30015D268 /* CocoaAsyncSocket.framework in CopyFiles */,
+				CE8DB8291805A6E30015D268 /* CocoaLumberjack.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2849245FF21FB16C2789F214 /* HTTPSyncServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSyncServer.h; sourceTree = "<group>"; };
+		284924794DF7A25BB611D865 /* ImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTools.h; sourceTree = "<group>"; };
+		284924A20B8BEEB236E9C344 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		28492544DE6ED0A8E8457522 /* ImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTools.m; sourceTree = "<group>"; };
+		2849276BC3FA19662CBA9863 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		28492799579FAB3F02233AC5 /* HTTPSyncConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "file.h\nyn"; path = HTTPSyncConnection.h; sourceTree = "<group>"; };
+		2849282475C362AC4A7BA244 /* ContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
+		28492B3FDD7F260167363D44 /* HTTPSyncServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSyncServer.m; sourceTree = "<group>"; };
+		28492BDFAD29C56A3B8DE6B8 /* MediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaManager.m; sourceTree = "<group>"; };
+		28492C5DF2430CAD5A6B8A40 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<group>"; };
+		28492C8925453909E60E4E01 /* HTTPSyncConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSyncConnection.m; sourceTree = "<group>"; };
+		28492E43546F6A80D98E9E5A /* ContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
+		28492EC9B3CB2B29E47F3E60 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		28492F1B0BDC5EFB52BA7E62 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = "<group>"; };
+		28492FFED1750C3CF2D2F248 /* MediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaManager.h; sourceTree = "<group>"; };
+		CE696A6818A5C97100E826B9 /* MediaTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTrack.h; sourceTree = "<group>"; };
+		CE696A6918A5C97100E826B9 /* MediaTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTrack.m; sourceTree = "<group>"; };
+		CE8DB1EA18042A7A0015D268 /* sync-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sync-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DB1ED18042A7A0015D268 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CE8DB1F018042A7A0015D268 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE8DB1F118042A7A0015D268 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE8DB1F218042A7A0015D268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8DB1FF18042A7A0015D268 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8DB20018042A7A0015D268 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8DB20318042A7A0015D268 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE8DB20E18042E740015D268 /* iconH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconH.png; sourceTree = "<group>"; };
+		CE8DB21018042E7E0015D268 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CE8DB3FE180593F40015D268 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE8DB8191805A44A0015D268 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RoutingHTTPServer.framework; sourceTree = "<group>"; };
+		CE8DB81B1805A47C0015D268 /* CocoaHTTPServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaHTTPServer.framework; sourceTree = "<group>"; };
+		CE8DB8241805A6DA0015D268 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		CE8DB8251805A6DA0015D268 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		CE8DB82E1805B4FD0015D268 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "sync-native/main.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8DB1E718042A7A0015D268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB3FF180593F40015D268 /* Security.framework in Frameworks */,
+				CE8DB1EE18042A7A0015D268 /* Cocoa.framework in Frameworks */,
+				CE8DB81A1805A44A0015D268 /* RoutingHTTPServer.framework in Frameworks */,
+				CE8DB81C1805A47C0015D268 /* CocoaHTTPServer.framework in Frameworks */,
+				CE8DB8261805A6DA0015D268 /* CocoaAsyncSocket.framework in Frameworks */,
+				CE8DB8271805A6DA0015D268 /* CocoaLumberjack.framework in Frameworks */,
+				284927B9710E1C7054364C0B /* AddressBook.framework in Frameworks */,
+				28492E08DBC4E888FE1DE5D6 /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2849217EC6DE86F11D47B406 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				284924A20B8BEEB236E9C344 /* NSData+Base64.m */,
+				2849276BC3FA19662CBA9863 /* NSData+Base64.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		28492434D3016909C53E6931 /* ExportManagers */ = {
+			isa = PBXGroup;
+			children = (
+				2849282475C362AC4A7BA244 /* ContactsManager.h */,
+				28492E43546F6A80D98E9E5A /* ContactsManager.m */,
+				28492BDFAD29C56A3B8DE6B8 /* MediaManager.m */,
+				28492FFED1750C3CF2D2F248 /* MediaManager.h */,
+				28492EC9B3CB2B29E47F3E60 /* iTunes.h */,
+				CE696A6818A5C97100E826B9 /* MediaTrack.h */,
+				CE696A6918A5C97100E826B9 /* MediaTrack.m */,
+			);
+			name = ExportManagers;
+			path = "sync-native";
+			sourceTree = SOURCE_ROOT;
+		};
+		2849292E0C86009467B02072 /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				2849245FF21FB16C2789F214 /* HTTPSyncServer.h */,
+				28492B3FDD7F260167363D44 /* HTTPSyncServer.m */,
+				28492799579FAB3F02233AC5 /* HTTPSyncConnection.h */,
+				28492C8925453909E60E4E01 /* HTTPSyncConnection.m */,
+			);
+			path = HTTPServer;
+			sourceTree = "<group>";
+		};
+		28492DDF2252250CAE36359D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				28492544DE6ED0A8E8457522 /* ImageTools.m */,
+				284924794DF7A25BB611D865 /* ImageTools.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		28492E399EEAA0F0F1414211 /* SyncServer */ = {
+			isa = PBXGroup;
+			children = (
+				28492DDF2252250CAE36359D /* Tools */,
+				28492434D3016909C53E6931 /* ExportManagers */,
+				2849292E0C86009467B02072 /* HTTPServer */,
+			);
+			path = SyncServer;
+			sourceTree = "<group>";
+		};
+		CE8DB1E118042A7A0015D268 = {
+			isa = PBXGroup;
+			children = (
+				CE8DB82E1805B4FD0015D268 /* main.m */,
+				CE8DB20D18042E6A0015D268 /* icons */,
+				CE8DB1F318042A7A0015D268 /* sync-native */,
+				CE8DB1EC18042A7A0015D268 /* Frameworks */,
+				CE8DB1EB18042A7A0015D268 /* Products */,
+				2849217EC6DE86F11D47B406 /* Base64 */,
+				28492E399EEAA0F0F1414211 /* SyncServer */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8DB1EB18042A7A0015D268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB1EA18042A7A0015D268 /* sync-native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8DB1EC18042A7A0015D268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB8241805A6DA0015D268 /* CocoaAsyncSocket.framework */,
+				CE8DB8251805A6DA0015D268 /* CocoaLumberjack.framework */,
+				CE8DB1F018042A7A0015D268 /* AppKit.framework */,
+				CE8DB1F118042A7A0015D268 /* CoreData.framework */,
+				CE8DB1F218042A7A0015D268 /* Foundation.framework */,
+				CE8DB81B1805A47C0015D268 /* CocoaHTTPServer.framework */,
+				CE8DB8191805A44A0015D268 /* RoutingHTTPServer.framework */,
+				CE8DB3FE180593F40015D268 /* Security.framework */,
+				CE8DB1ED18042A7A0015D268 /* Cocoa.framework */,
+				CE8DB1EF18042A7A0015D268 /* Other Frameworks */,
+				28492F1B0BDC5EFB52BA7E62 /* AddressBook.framework */,
+				28492C5DF2430CAD5A6B8A40 /* ScriptingBridge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8DB1EF18042A7A0015D268 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE8DB1F318042A7A0015D268 /* sync-native */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB1FF18042A7A0015D268 /* AppDelegate.h */,
+				CE8DB20018042A7A0015D268 /* AppDelegate.m */,
+				CE8DB20218042A7A0015D268 /* MainMenu.xib */,
+			);
+			path = "sync-native";
+			sourceTree = "<group>";
+		};
+		CE8DB20D18042E6A0015D268 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DB21018042E7E0015D268 /* icon.png */,
+				CE8DB20E18042E740015D268 /* iconH.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8DB1E918042A7A0015D268 /* sync-native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DB20718042A7A0015D268 /* Build configuration list for PBXNativeTarget "sync-native" */;
+			buildPhases = (
+				CE8DB1E618042A7A0015D268 /* Sources */,
+				CE8DB1E718042A7A0015D268 /* Frameworks */,
+				CE8DB1E818042A7A0015D268 /* Resources */,
+				CE8DB8211805A6700015D268 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sync-native";
+			productName = "sync-native";
+			productReference = CE8DB1EA18042A7A0015D268 /* sync-native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8DB1E218042A7A0015D268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michal Koudelka";
+			};
+			buildConfigurationList = CE8DB1E518042A7A0015D268 /* Build configuration list for PBXProject "sync-native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = CE8DB1E118042A7A0015D268;
+			productRefGroup = CE8DB1EB18042A7A0015D268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8DB1E918042A7A0015D268 /* sync-native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8DB1E818042A7A0015D268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB20418042A7A0015D268 /* MainMenu.xib in Resources */,
+				CE8DB20F18042E740015D268 /* iconH.png in Resources */,
+				CE8DB21118042E7E0015D268 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8DB1E618042A7A0015D268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DB20118042A7A0015D268 /* AppDelegate.m in Sources */,
+				CE8DB82F1805B4FD0015D268 /* main.m in Sources */,
+				CE696A6A18A5C97100E826B9 /* MediaTrack.m in Sources */,
+				28492BCE96017F30A65E51BA /* NSData+Base64.m in Sources */,
+				28492BB48E1C934BFBBDD502 /* ImageTools.m in Sources */,
+				28492835246A791984C2322F /* ContactsManager.m in Sources */,
+				28492C2650F6FA97539BD06F /* MediaManager.m in Sources */,
+				2849230973E2353E39404428 /* HTTPSyncServer.m in Sources */,
+				28492BA7BEF7A62CF52FC179 /* HTTPSyncConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE8DB20218042A7A0015D268 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8DB20318042A7A0015D268 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8DB20518042A7A0015D268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE8DB20618042A7A0015D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE8DB20818042A7A0015D268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/RoutingHTTPServer-OSX\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sync-native/sync-native-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "sync-native/sync-native-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8DB20918042A7A0015D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/RoutingHTTPServer-OSX\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sync-native/sync-native-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "sync-native/sync-native-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8DB1E518042A7A0015D268 /* Build configuration list for PBXProject "sync-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB20518042A7A0015D268 /* Debug */,
+				CE8DB20618042A7A0015D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DB20718042A7A0015D268 /* Build configuration list for PBXNativeTarget "sync-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DB20818042A7A0015D268 /* Debug */,
+				CE8DB20918042A7A0015D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8DB1E218042A7A0015D268 /* Project object */;
+}

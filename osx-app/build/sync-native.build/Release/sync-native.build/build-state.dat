@@ -1,0 +1,288 @@
+Tsync-native
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist sync-native/sync-native-Info.plist
+cProcessPCH /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth sync-native/sync-native-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o /Users/koudelka/devel/sync-native/sync-native/SyncServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o /Users/koudelka/devel/sync-native/sync-native/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o /Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051649BEB00000000000025C8
+t1365548011
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051649BEB00000000000001E5
+t1365548011
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000051649C1A000000000006ECF4
+t1365548058
+s453876
+
+N/Users/koudelka/devel/sync-native/CocoaAsyncSocket.framework
+c0000000051F6A28400000000000000CC
+t1375117956
+s204
+
+N/Users/koudelka/devel/sync-native/CocoaAsyncSocket.framework/CocoaAsyncSocket
+c0000000051F6A2840000000000087010
+t1375117956
+s552976
+
+N/Users/koudelka/devel/sync-native/CocoaHTTPServer.framework
+c0000000051F6A29300000000000000CC
+t1375117971
+s204
+
+N/Users/koudelka/devel/sync-native/CocoaHTTPServer.framework/CocoaHTTPServer
+c0000000051F6A29300000000000437B4
+t1375117971
+s276404
+
+N/Users/koudelka/devel/sync-native/CocoaLumberjack.framework
+c0000000051F6A27D00000000000000CC
+t1375117949
+s204
+
+N/Users/koudelka/devel/sync-native/CocoaLumberjack.framework/CocoaLumberjack
+c0000000051F6A27D000000000003B0CC
+t1375117949
+s241868
+
+N/Users/koudelka/devel/sync-native/RoutingHTTPServer.framework
+c0000000052556C6000000000000000EE
+t1381330016
+s238
+
+N/Users/koudelka/devel/sync-native/RoutingHTTPServer.framework/RoutingHTTPServer
+c0000000051F6A296000000000000F248
+t1375117974
+s62024
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app.dSYM
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaAsyncSocket.framework
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaHTTPServer.framework
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaLumberjack.framework
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/RoutingHTTPServer.framework
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/iconH.png
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o
+t2
+s0
+
+N/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/sync-native.LinkFileList
+c0000000052557C3A0000000000000171
+t1381334074
+s369
+
+N/Users/koudelka/devel/sync-native/icon.png
+c000000005253EFEE0000000000000B8C
+t1381232622
+s2956
+
+N/Users/koudelka/devel/sync-native/iconH.png
+c000000005253F0270000000000000974
+t1381232679
+s2420
+
+N/Users/koudelka/devel/sync-native/sync-native/AppDelegate.m
+c0000000052555D1D0000000000000663
+t1381326109
+s1635
+
+N/Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m
+c0000000052557B690000000000000211
+t1381333865
+s529
+
+N/Users/koudelka/devel/sync-native/sync-native/SyncServer.m
+c0000000052557B48000000000000042A
+t1381333832
+s1066
+
+N/Users/koudelka/devel/sync-native/sync-native/en.lproj/MainMenu.xib
+c00000000525524D0000000000001D992
+t1381311696
+s121234
+
+N/Users/koudelka/devel/sync-native/sync-native/sync-native-Prefix.pch
+c000000005253F2FA0000000000000099
+t1381233402
+s153
+i<Cocoa/Cocoa.h>
+
+N/var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth
+t2
+s0
+
+Nsync-native/sync-native-Info.plist
+c000000005253F2FA0000000000000456
+t1381233402
+s1110
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies50c33fb9b305b841^50c585bab305b841^---0#1#0#--18"Check dependencies36"C1FA9FBB-3F93-48B4-A33F-9C2297D1D165-
+
+CCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o /Users/koudelka/devel/sync-native/sync-native/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403026876.413114
+e403026877.025546
+r1
+xCompileC
+xbuild/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/koudelka/devel/sync-native/sync-native/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/koudelka/devel/sync-native/sync-native/AppDelegate.m39f169bcb305b841^988906bdb305b841^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/koudelka/devel/sync-native/sync-native/AppDelegate.m0000000000000000^2487"CompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o sync-native/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/koudelka/devel/sync-native    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/sync-native.hmap -I/Users/koudelka/devel/sync-native/build/Release/include -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources/x86_64 -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources -F/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/../../Downloads/RoutingHTTPServer-OSX -F/Users/koudelka/devel/sync-native -include /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch -MMD -MT dependencies -MF /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/koudelka/devel/sync-native/sync-native/AppDelegate.m -o /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o36"4AF57E60-B54D-40B8-89D7-7057D897148E-
+
+CCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o /Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403026876.413298
+e403026876.596286
+r1
+xCompileC
+xbuild/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o
+x/Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m7ff869bcb305b841^65a698bcb305b841^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m0000000000000000^2547"CompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o sync-native/ContactsExportManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/koudelka/devel/sync-native    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/sync-native.hmap -I/Users/koudelka/devel/sync-native/build/Release/include -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources/x86_64 -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources -F/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/../../Downloads/RoutingHTTPServer-OSX -F/Users/koudelka/devel/sync-native -include /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch -MMD -MT dependencies -MF /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.d --serialize-diagnostics /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.dia -c /Users/koudelka/devel/sync-native/sync-native/ContactsExportManager.m -o /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o36"5B79A721-5F75-47F2-98B6-3C42E4AC1866-
+
+CCompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o /Users/koudelka/devel/sync-native/sync-native/SyncServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403026876.410726
+e403026877.014662
+r1
+xCompileC
+xbuild/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o
+x/Users/koudelka/devel/sync-native/sync-native/SyncServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/koudelka/devel/sync-native/sync-native/SyncServer.m6b6669bcb305b841^09c003bdb305b841^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/koudelka/devel/sync-native/sync-native/SyncServer.m0000000000000000^2481"CompileC build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o sync-native/SyncServer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/koudelka/devel/sync-native    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/sync-native.hmap -I/Users/koudelka/devel/sync-native/build/Release/include -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources/x86_64 -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources -F/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/../../Downloads/RoutingHTTPServer-OSX -F/Users/koudelka/devel/sync-native -include /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch -MMD -MT dependencies -MF /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.d --serialize-diagnostics /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.dia -c /Users/koudelka/devel/sync-native/sync-native/SyncServer.m -o /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o36"1FDEAEDD-DD32-42D2-BE97-4EDEF47796A6-
+
+CCompileXIB /Users/koudelka/devel/sync-native/sync-native/en.lproj/MainMenu.xib
+r0
+
+CCpResource icon.png build/Release/sync-native.app/Contents/Resources/icon.png
+r0
+
+CCpResource iconH.png build/Release/sync-native.app/Contents/Resources/iconH.png
+r0
+
+CGenerateDSYMFile /Users/koudelka/devel/sync-native/build/Release/sync-native.app.dSYM /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native
+r0
+
+CLd /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native normal x86_64
+s403026877.031830
+e403026877.324811
+r0
+xLd
+x/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native
+xnormal
+xx86_64
+oUndefined symbols for architecture x86_64:
+o  "_main", referenced from:
+o     implicit entry/start for main executable
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-nativec84208bdb305b841^b64753bdb305b841^-245"Undefined symbols for architecture x86_64:  "_main", referenced from:     implicit entry/start for main executableld: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@25""_main", referenced from:-403026877#43#28#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@40"Implicit entry/start for main executable-403026877#71#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-403026877#117#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-403026877#165#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1014"Ld build/Release/sync-native.app/Contents/MacOS/sync-native normal x86_64    cd /Users/koudelka/devel/sync-native    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/../../Downloads/RoutingHTTPServer-OSX -F/Users/koudelka/devel/sync-native -filelist /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/sync-native.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Security -framework Cocoa -framework RoutingHTTPServer -framework CocoaHTTPServer -framework CocoaAsyncSocket -framework CocoaLumberjack -o /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native36"0C9EE304-EC4E-49C2-AC56-F22D238DC010-
+
+CPBXCp CocoaAsyncSocket.framework build/Release/sync-native.app/Contents/Frameworks/CocoaAsyncSocket.framework
+r0
+
+CPBXCp CocoaHTTPServer.framework build/Release/sync-native.app/Contents/Frameworks/CocoaHTTPServer.framework
+r0
+
+CPBXCp CocoaLumberjack.framework build/Release/sync-native.app/Contents/Frameworks/CocoaLumberjack.framework
+r0
+
+CPBXCp RoutingHTTPServer.framework build/Release/sync-native.app/Contents/Frameworks/RoutingHTTPServer.framework
+r0
+
+CProcessInfoPlistFile /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist sync-native/sync-native-Info.plist
+s403026874.532440
+e403026874.592025
+r1
+xProcessInfoPlistFile
+x/Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist
+xsync-native/sync-native-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process sync-native/sync-native-Info.plist446c88bab305b841^5c8e97bab305b841^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/koudelka/devel/sync-native/sync-native/sync-native-Info.plist0000000000000000^429"ProcessInfoPlistFile build/Release/sync-native.app/Contents/Info.plist sync-native/sync-native-Info.plist    cd /Users/koudelka/devel/sync-native    builtin-infoPlistUtility sync-native/sync-native-Info.plist -genpkginfo /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist36"975D8377-933D-495C-A897-BB8A1B81DA53-
+
+CProcessPCH /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth sync-native/sync-native-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403026874.599987
+e403026876.403354
+r1
+xProcessPCH
+x/var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth
+xsync-native/sync-native-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile sync-native/sync-native-Prefix.pchcccf99bab305b841^7a5167bcb305b841^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/koudelka/devel/sync-native/sync-native/sync-native-Prefix.pch0000000000000000^2566"ProcessPCH /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth sync-native/sync-native-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/koudelka/devel/sync-native    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/sync-native.hmap -I/Users/koudelka/devel/sync-native/build/Release/include -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources/x86_64 -I/Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/DerivedSources -F/Users/koudelka/devel/sync-native/build/Release -F/Users/koudelka/devel/sync-native/../../Downloads/RoutingHTTPServer-OSX -F/Users/koudelka/devel/sync-native --serialize-diagnostics /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.dia -c /Users/koudelka/devel/sync-native/sync-native/sync-native-Prefix.pch -o /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.d36"F26AC434-CA99-4476-8C0D-22A2E1BA8CDA-
+
+CTouch /Users/koudelka/devel/sync-native/build/Release/sync-native.app
+r0
+

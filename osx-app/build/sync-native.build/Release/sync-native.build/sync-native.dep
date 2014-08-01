@@ -1,0 +1,16 @@
+ffffffffffffffffffffffffffffffff 6316561b535ab6e48917d3f579c8fb98 ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/MacOS/sync-native
+ffffffffffffffffffffffffffffffff 95b5880ea07290273cfd5d066a8d794e ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/AppDelegate.o
+ffffffffffffffffffffffffffffffff 59032fc17d62b863f500f0bf6c665214 ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/SyncServer.o
+ffffffffffffffffffffffffffffffff 20aa08e44b9cab1b702a90a4f2106878 ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/sync-native.build/Release/sync-native.build/Objects-normal/x86_64/ContactsExportManager.o
+0000000003376911000000000000017c 3ebe06154a011ba4db21ad0e89b1b12c ffffffffffffffffffffffffffffffff 0 /var/folders/g9/x8s7_6595bl_thg2hv60mnjh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sync-native-Prefix-gsyixaebgyhynbdktgqdpgkeocdj/sync-native-Prefix.pch.pth
+00000000000000000000000000000000 1dc231f0fb53833bde0fe7b641393423 ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Info.plist
+00000000000000000000000000000000 1dc231f0fb53833bde0fe7b641393423 ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app.dSYM
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaLumberjack.framework
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaAsyncSocket.framework
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/RoutingHTTPServer.framework
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Frameworks/CocoaHTTPServer.framework
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/icon.png
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/iconH.png
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/koudelka/devel/sync-native/build/Release/sync-native.app/Contents/Resources/en.lproj/MainMenu.nib
